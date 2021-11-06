@@ -27,6 +27,7 @@
                 float: inherit;
                 padding-left: 25px;
                 overflow: hidden;
+                padding-top: 75px;
             }
             
             .subtitle {
@@ -44,16 +45,34 @@
             }
             
             .content-subtitle {
-                padding-top: 45px;
+                padding-top: 75px;
             }
             
             .details {
                 color: #222222;
             }
+            
+            .title {
+                z-index: 2;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                position: fixed;
+                border: solid 3px black;
+                width: 85%;
+            }
+            
+            .texttitle {
+                font-size: 25px;
+                text-align: center;
+                width: 100%;
+            }
         </style>
     </head>
     <body>
         <div class="content">
+            <div class="title">
+                <span class="texttitle">Daniel Sebastián Valenzuela</span>
+            </div>
             <div class="leftsside">
                 <div class="content-subtitle">
                     <span class="subtitle">Personal</span>
@@ -103,6 +122,16 @@
             <div class="rightsside">
                 <hr>
                 <span class="subtitle">Experiencia laboral</span>
+                <div class="content-details">
+                    <p class="details"><b>Referente técnico</b></p>
+                    <p class="details">E.P.E.T N°3, General Pico, La Pampa</p>
+                </div>
+                <hr>
+                <span class="subtitle">Estudios</span>
+                <div class="content-details">
+                    <p class="details"><b>Técnico en Informática Personal y Profesional (2013-2019)</b></p>
+                    <p class="details">E.P.E.T N°3, General Pico, La Pampa</p>
+                </div>
             </div>
         </div>
     </body>
